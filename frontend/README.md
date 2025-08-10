@@ -78,8 +78,8 @@ frontend/
 
 ## 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/project-management-tool.git
-cd project-management-tool
+git clone https://github.com/mrsushil67/softrikTask/tree/main/frontend
+cd frontend
 
 
 ## 2. install Libraries
