@@ -26,7 +26,6 @@ const ProjectDetails: React.FC = () => {
     fetchProject();
   }, [id]);
 
-  // Update filtered tasks & pagination whenever allTasks, filterStatus, or currentPage changes
   useEffect(() => {
     let filtered = allTasks;
     if (filterStatus) {
@@ -187,7 +186,6 @@ const ProjectDetails: React.FC = () => {
           </div>
         )}
 
-        {/* Pagination Controls */}
         {totalPages > 1 && (
           <div className="flex justify-center items-center gap-3 mt-8">
             <button
