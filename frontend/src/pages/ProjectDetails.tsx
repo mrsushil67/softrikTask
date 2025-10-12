@@ -4,7 +4,6 @@ import api from "../services/api";
 import TaskForm from "../components/TaskForm";
 import Navbar from "../components/Navbar";
 import { Trash2, PlusCircle, CheckCircle, Clock, Pencil } from "lucide-react";
-
 const TASKS_PER_PAGE = 6; // Adjust how many tasks per page
 
 const ProjectDetails: React.FC = () => {
